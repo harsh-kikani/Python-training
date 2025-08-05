@@ -1,6 +1,6 @@
-def hello():
-    print("hhhheelllllooooo")
-    
-hello()
+def f_to_c(f):
+    return 5*(f-32)/9
 
-print("This is the end of the hello function.")
+f = int(input("Enter temperature in F: "))
+c = f_to_c(f)
+print(f"{round(c, 2)}°C")
