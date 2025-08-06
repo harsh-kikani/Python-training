@@ -6,3 +6,5 @@ def GoodDay (name , ending="Thank you"):
 GoodDay("rahul" , "thanks")
 GoodDay("rohan") # Using default argument
 
+# new line comment 
+
